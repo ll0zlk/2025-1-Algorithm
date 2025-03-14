@@ -11,7 +11,7 @@ def is_available(x, y, k):
   if k<0:
     return False
   
-  # 출구 도착 시 성공공
+  # 출구 도착 시 성공
   if x==n-1 and y==n-1:
     return True
   
