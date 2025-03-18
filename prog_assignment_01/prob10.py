@@ -26,6 +26,8 @@ for i in range(1, n+1):
 #    if j >= wi:
 #      # 물건 가져가면 가치 증가
 #      dp[i][j] = max(dp[i][j], dp[i-1][j-wi] + vi)
+
+    # 배낭 문제처럼 풀면 이렇게
     if wi <= j:
       dp[i][j] = max(dp[i-1][j-wi]+vi, dp[i-1][j]-ci)
     else:
