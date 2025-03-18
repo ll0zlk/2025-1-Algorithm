@@ -1,7 +1,7 @@
 # PROG_ASSIGNMENT_01_8
 
 # 배낭 채우기 (0-1 Knapsack Problem)
-# DP 알고리즘즘
+# DP 알고리즘
 
 filename = "input.txt"
 with open(filename, 'r') as f:
